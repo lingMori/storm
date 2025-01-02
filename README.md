@@ -1,45 +1,34 @@
 # 🌩️ Storm Platform
 
-> *Empowering Creators in the Decentralized Era*
-
-**Storm** is a revolutionary decentralized creator platform that combines the best features of social media and patronage systems with Web3 technology. Built for the future of digital creativity, Storm empowers creators to own their content, engage deeply with their community, and build sustainable creative businesses.
+> **Empowering Creators in the Decentralized Era**
 
 ![Project Status](https://img.shields.io/badge/status-active-success.svg)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 ![Platform](https://img.shields.io/badge/platform-web3-blueviolet.svg)
 
----
-
 ## 🌟 Vision
 
-Storm aims to revolutionize the creator economy by providing:
+Storm is a revolutionary decentralized creator platform that combines the best features of social media and patronage systems with Web3 technology. Our mission is to empower creators to own their content, engage deeply with their community, and build sustainable creative businesses.
 
-- 🎨 **True Ownership**: Creators fully own their content and audience relationships
-- 💫 **Fair Revenue**: Direct creator-to-supporter economic model with minimal fees
-- 🤝 **Community First**: Deep engagement tools for meaningful creator-fan connections
-- 🌐 **Decentralized Future**: Built on Web3 principles for true digital independence
+## 🚀 Key Features
 
-## 🏗️ Platform Architecture
+### For Creators
 
-Storm consists of two main components:
+- 📊 **Comprehensive Analytics Dashboard**
+- 💰 **Multiple Revenue Streams**
+- 🎨 **Decentralized Content Management**
+- 🤝 **Advanced Community Engagement Tools**
 
-### 🌅 Storm Horizon (Frontend)
+### For Supporters
 
-- Modern React-based frontend with TypeScript
-- Valtio for state management
-- Lightning-fast performance with Vite
-- Responsive and intuitive creator/supporter interfaces
-
-### ⚡ Storm Thunder (Backend)
-
-- Robust NestJS backend architecture
-- High-performance API layer with SWC compilation
-- Comprehensive testing with Vitest
-- Scalable microservices design
+- 👥 **Intelligent Creator Discovery**
+- 🎁 **Flexible Support Options**
+- 📱 **Cross-Platform Experience**
+- 🔔 **Smart Notifications**
 
 ## 💻 Tech Stack
 
-### Frontend (Horizon)
+### Frontend (Storm Horizon)
 
 - React 18.3
 - TypeScript 5.6
@@ -47,7 +36,7 @@ Storm consists of two main components:
 - Valtio
 - React Router 6.28
 
-### Backend (Thunder)
+### Backend (Storm Thunder)
 
 - NestJS 10
 - TypeScript 5.1
@@ -55,9 +44,9 @@ Storm consists of two main components:
 - RxJS
 - Vitest
 
-## 🚀 Getting Started
+## 🛠️ Quick Start
 
-1. **Clone the Repositories**:
+### Clone Repositories
 
 ```bash
 # Clone Frontend
@@ -67,7 +56,7 @@ git clone https://github.com/yourusername/storm-horizon.git
 git clone https://github.com/yourusername/storm-thunder.git
 ```
 
-2. **Setup Frontend**:
+### Frontend Setup
 
 ```bash
 cd storm-horizon
@@ -75,7 +64,7 @@ npm install
 npm run dev
 ```
 
-3. **Setup Backend**:
+### Backend Setup
 
 ```bash
 cd storm-thunder
@@ -83,114 +72,88 @@ npm install
 npm run start:dev
 ```
 
-## 🎯 Core Features
+## 🏗️ Project Structure
 
-### For Creators
-
-- 📊 **Analytics Dashboard**: Comprehensive insights into audience engagement
-- 💰 **Multiple Revenue Streams**: Subscriptions, one-time support, NFT drops
-- 🎨 **Content Management**: Rich media support with decentralized storage
-- 🤝 **Community Tools**: Direct engagement with supporters
-
-### For Supporters
-
-- 👥 **Creator Discovery**: Smart recommendations based on interests
-- 🎁 **Flexible Support Options**: Various ways to support favorite creators
-- 📱 **Mobile-First Experience**: Seamless access across all devices
-- 🔔 **Smart Notifications**: Stay updated with creator activities
-
-## 📦 Project Structure
-
-```{markdown}
+```markdown
 storm/
 ├── storm-horizon/          # Frontend application
 │   ├── src/
-│   │   ├── components/     # React components
-│   │   ├── pages/         # Route pages
-│   │   ├── hooks/         # Custom hooks
-│   │   └── stores/        # State management
+│   │   ├── components/
+│   │   ├── pages/
+│   │   ├── hooks/
+│   │   └── stores/
 │   └── package.json
 │
 ├── storm-thunder/          # Backend services
 │   ├── src/
-│   │   ├── modules/       # Feature modules
-│   │   ├── common/        # Shared resources
-│   │   └── config/        # Configuration
+│   │   ├── modules/
+│   │   ├── common/
+│   │   └── config/
 │   └── package.json
 ```
 
-## 🛠️ Development
+## 🔐 Core Principles
 
-### Frontend Development
+1. **True Content Ownership**
+   - Creators have full control over their digital content
+   - Blockchain-backed authenticity and attribution
 
-```bash
-cd storm-horizon
-npm run dev        # Start development server
-npm run build      # Build for production
-npm run preview    # Preview production build
-npm run lint       # Lint code
-```
+2. **Fair Economic Model**
+   - Minimal platform fees
+   - Direct creator-to-supporter transactions
+   - Multiple monetization pathways
 
-### Backend Development
+3. **Community-Centric Design**
+   - Deep engagement tools
+   - Meaningful creator-fan connections
+   - Transparent and collaborative ecosystem
 
-```bash
-cd storm-thunder
-npm run start:dev  # Start in watch mode
-npm run test       # Run tests
-npm run test:cov   # Generate coverage report
-npm run build      # Build for production
-```
+## 🌐 Web3 Integration
 
-## 🔐 Security
+Storm leverages Web3 technologies to:
 
-- 🛡️ **Data Protection**: End-to-end encryption for sensitive data
-- 🔒 **Web3 Integration**: Secure blockchain transactions
-- 🪪 **Identity Management**: Robust authentication system
-- 🛠️ **Regular Audits**: Continuous security assessments
+- Ensure data sovereignty
+- Enable secure, transparent transactions
+- Provide decentralized identity management
+- Create portable creator profiles
+
+## 🔮 Roadmap
+
+- [x] Core Platform Development
+- [ ] Mobile Applications
+- [ ] AI Content Recommendations
+- [ ] Cross-Platform Integration
+- [ ] International Expansion
 
 ## 🤝 Contributing
 
-We welcome contributions to both frontend and backend! Please check out our contributing guidelines:
+We welcome contributions! Please see our [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct and the process for submitting pull requests.
 
-1. Fork the respective repository
-2. Create your feature branch
-3. Commit your changes
-4. Push to the branch
+### Contribution Steps
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 📚 Documentation
-
-- [Frontend Documentation](./storm-horizon/README.md)
-- [Backend Documentation](./storm-thunder/README.md)
-- [API Documentation](./storm-thunder/api-docs)
-
-## 🔮 Future Roadmap
-
-- 📱 Mobile Applications
-- 🌍 Internationalization
-- 🤖 AI-Powered Content Recommendations
-- 📊 Advanced Analytics
-- 🔄 Cross-Platform Integration
-
-## 📜 License
-
-This project is dual-licensed:
+## 📜 Licensing
 
 - Frontend (Storm Horizon): MIT License
 - Backend (Storm Thunder): UNLICENSED
 
-## 🙏 Acknowledgments
+## 📞 Contact & Support
 
-- Our amazing creator community
-- Open source contributors
-- Early adopters and testers
+- **Website**: [storm-platform.com](#)
+- **Email**: <support@storm-platform.com>
+- **Discord**: [Join our Community](#)
 
 ---
 
 <div align="center">
 
-**Building the Future of Digital Creativity**
+**Revolutionizing the Creator Economy, One Block at a Time** 🚀
 
-[Website](#) · [Documentation](#) · [Community](#) · [Support](#)
+[Documentation](#) · [Community](#) · [Support](#)
 
 </div>
